@@ -43,6 +43,7 @@ const sidebar: DefaultTheme.Sidebar = {
           items: [
             { text: 'Usage', link: '/vue/' },
             { text: 'Inject mode✨', link: '/vue/provider' },
+            { text: 'Hold mode', link: '/vue/holder' },
             { text: 'Customized', link: '/vue/customized' },
             { text: 'Vue 2', link: '/vue/vue2' },
           ],
@@ -67,6 +68,7 @@ const sidebar: DefaultTheme.Sidebar = {
       items: [
         { text: '介绍', link: '/zh/guide/getting-started' },
         { text: '外部控制', link: '/zh/guide/external-control' },
+        { text: '单例', link: '/zh/guide/support-only' },
       ],
     },
     {
@@ -90,6 +92,7 @@ const sidebar: DefaultTheme.Sidebar = {
           items: [
             { text: '快速开始', link: '/zh/vue/' },
             { text: '注入模式✨', link: '/zh/vue/provider' },
+            { text: '持有模式', link: '/zh/vue/holder' },
             { text: '定制化', link: '/zh/vue/customized' },
             { text: 'Vue 2', link: '/zh/vue/vue2' },
           ],
